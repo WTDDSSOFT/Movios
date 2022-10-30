@@ -23,10 +23,12 @@ struct ContentView: View {
                      .padding(.vertical)
                      .frame(height: 500)
                      .cornerRadius(12)
-                  Text("movies here!")
+                  Text("New Movies release data ")
                      .foregroundColor(.white)
                      .padding(.top, 20)
+                     .font(.title)
                }
+               CategoriGridView()
             }
          }
          .background(Color(red: 15/255, green: 15/255, blue: 21/255).ignoresSafeArea(.all,edges: .all))
